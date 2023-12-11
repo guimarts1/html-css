@@ -1,0 +1,54 @@
+.loginbox{
+    background-color: gray;
+    border-radius: 10px;
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+a{
+    background: linear-gradient(currentColor 0 0) 
+    bottom left/
+    var(--underline-width, 0%) 0.1em
+    no-repeat;
+    color: #f80;
+    display: inline-block;
+    padding: 0 .5em 0 .2em;
+    text-decoration: none;
+    transition: background-size 0.5s;
+    color: white;
+}
+
+a:hover{
+    --underline-width: 100%;
+}
+
+body{
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW1bfyL?ver=ba56);
+}
+
+button{
+    padding: 5px 50px 5px 50px;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    margin: auto;
+  }
+
+.loginbox label{
+    align-items: end;    
+}
+

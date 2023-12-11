@@ -1,0 +1,26 @@
+body {background-color: rgb(20, 21, 21);
+}
+.button{
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    background-color: #9c320e;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+.button:hover {
+    background-color: #ccc;
+    color: #000;    
+}
+.button:active {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ccc;
+    transform: scale(2.1);
+    transition: all 0.5s ease-in-out;    
+}
